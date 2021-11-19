@@ -1,0 +1,27 @@
+[submodule "pn-localdev"]
+	path = pn-localdev
+	url = git@github.com:pagopa/pn-localdev.git
+[submodule "pn-model"]
+	path = pn-model
+	url = git@github.com:pagopa/pn-model.git
+	branch = develop
+[submodule "pn-commons"]
+	path = pn-commons
+	url = git@github.com:pagopa/pn-commons.git
+	branch = develop
+[submodule "pn-delivery"]
+	path = pn-delivery
+	url = git@github.com:pagopa/pn-delivery.git
+	branch = develop
+[submodule "pn-delivery-push"]
+	path = pn-delivery-push
+	url = git@github.com:pagopa/pn-delivery-push.git
+	branch = develop
+[submodule "pn-external-channels"]
+	path = pn-external-channels
+	url = git@github.com:pagopa/pn-external-channels.git
+	branch = develop
+[submodule "pn-webapp"]
+	path = pn-webapp
+	url = git@github.com:pagopa/pn-webapp.git
+	branch = develop

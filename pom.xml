@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>it.pagopa.pn</groupId>
+    <artifactId>pn-modules</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>pn-modules</name>
+    <description>The parent and aggregator for the PN modules</description>
+    <url>https://github.com/orgs/pagopa/teams/piattaforma-notifiche</url>
+    <organization>
+        <name>PagoPa</name>
+        <url>https://ww</url>
+
+    </organization>
+    <scm>
+        <connection>scm:git:git@github.com:pagopa/pn-modules.git</connection>
+        <developerConnection>scm:git:git@github.com:pagopa/pn-modules.git</developerConnection>
+        <url>https://github.com/pagopa/pn-modules</url>
+    </scm>
+    <issueManagement>
+        <system>Jira</system>
+        <url>https://pagopa.atlassian.net/browse/PN</url>
+    </issueManagement>
+    <modules>
+        <module>pn-commons</module>
+        <module>pn-model</module>
+        <module>pn-delivery</module>
+        <module>pn-delivery-push</module>
+        <module>pn-external-channels</module>
+        <module>pn-webapp</module>
+    </modules>
+</project>
