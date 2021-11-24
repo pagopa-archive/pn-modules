@@ -25,3 +25,7 @@
 	path = pn-webapp
 	url = git@github.com:pagopa/pn-webapp.git
 	branch = develop
+[submodule "pn-parent"]
+	path = pn-parent
+	url = git@github.com:pagopa/pn-parent.git
+	branch = main

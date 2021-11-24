@@ -7,22 +7,12 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>pn-modules</name>
-    <description>The parent and aggregator for the PN modules</description>
-    <url>https://github.com/orgs/pagopa/teams/piattaforma-notifiche</url>
-    <organization>
-        <name>PagoPa</name>
-        <url>https://ww</url>
-
-    </organization>
+    <description>The aggregator for the PN modules</description>
     <scm>
         <connection>scm:git:git@github.com:pagopa/pn-modules.git</connection>
         <developerConnection>scm:git:git@github.com:pagopa/pn-modules.git</developerConnection>
         <url>https://github.com/pagopa/pn-modules</url>
     </scm>
-    <issueManagement>
-        <system>Jira</system>
-        <url>https://pagopa.atlassian.net/browse/PN</url>
-    </issueManagement>
     <modules>
         <module>pn-commons</module>
         <module>pn-model</module>
