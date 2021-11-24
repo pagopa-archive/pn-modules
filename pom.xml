@@ -14,6 +14,7 @@
         <url>https://github.com/pagopa/pn-modules</url>
     </scm>
     <modules>
+        <module>pn-parent</module>
         <module>pn-commons</module>
         <module>pn-model</module>
         <module>pn-delivery</module>
